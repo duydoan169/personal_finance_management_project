@@ -48,10 +48,10 @@ public class Budget {
 
     /** Tháng từ 1 đến 12. */
     @Column(name = "budget_month", nullable = false)
-    private Integer budgetMonth;
+    private Integer month;
 
     @Column(name = "budget_year", nullable = false)
-    private Integer budgetYear;
+    private Integer year;
 
     /** Giới hạn chi theo VND, luôn lớn hơn 0. */
     @Column(name = "amount", nullable = false)

@@ -35,8 +35,8 @@ public class User {
     @Column(name = "password_hash", nullable = false, length = 255)
     private String passwordHash;
 
-    @Column(name = "full_name", nullable = false, length = 100)
-    private String fullName;
+    @Column(name = "username", nullable = false, length = 100)
+    private String username;
 
     @CreationTimestamp
     @Column(name = "created_at", nullable = false, updatable = false)
